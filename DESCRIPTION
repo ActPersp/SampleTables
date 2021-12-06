@@ -1,0 +1,11 @@
+Package: SampleTables
+Version: 1.0
+License: GNU GPLv3
+Title: Sample Table Projects
+Description: This sample project is for demonstrating the use of tables in Rgogo Framework.
+Author: Edward Kuo
+Maintainer: Edward Kuo <ekuo@actuarialperspective.com>
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+Imports: Rgogo
