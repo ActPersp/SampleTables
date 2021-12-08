@@ -28,16 +28,13 @@ The objectives of this sample project are to demonstrate the following:
 
 ## Prerequisite
 
-You must install `Rgogo` package before using this sample project.  You can download these packages with the following commands if you have not done so:
+You must install _Rgogo_ package before using this sample project.  _Rgogo_ can be installed from GitHub using the following commands if you haven't done so:
 
 ```R
 library(devtools)
 install_github(repo = "ActPersp/Rgogo")
 ```
-
-It is also assumed that you are using RStudio for development environment.
-
-## Modifying Model
+## Descriptions of Folders and Files
 
 The sample R script files are located in the project _batch_ folder:
 
@@ -50,8 +47,8 @@ The sample R script files are located in the project _batch_ folder:
 | Scripts_05.R | Create an issue age by policy year table. |
 | Scripts_06.R | Create an attained age by birth year table. |
 | Scripts_07.R | Create a select and ultimate table. |
-| Scripts_08.R | Look up tables using list as lookup key. |
-| Scripts_09.R | Look up tables using coverage object as lookup key. |
+| Scripts_08.R | Look up a table using list as lookup key. |
+| Scripts_09.R | Look up a table using coverage object as lookup key. |
 | Scripts_10.R | Export a table object to Excel. |
 
 Other folders in use include:
@@ -61,8 +58,3 @@ Other folders in use include:
 | data-raw | This folder contains Excel files with table values to be imported to Rgogo table objects. |
 | data | All created table objects are saved in R data format in this folder. |
 | export | Table objects are exported to Excel files and saved in this folder. |
-
-
-
-
-
