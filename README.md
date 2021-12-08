@@ -11,7 +11,7 @@ This project is intended to be a supplement to the series of articles regarding 
 Tables in Rgogo are implemented using object oriented programming concept.  There are six basic table classes in Rgogo including:
 
 | Class | Description |
-| --- | --- | --- | --- |
+| --- | --- |
 | Table.AA | Attained age table |
 | Table.IA | Issue age table |
 | Table.PY | Policy year table |
@@ -24,7 +24,7 @@ The objectives of this sample project are to demonstrate the following:
 2. how to import table values from Excel when creating a table;
 3. how to create a table package that contains your commonly-used tables and can be shared among other modeling projects;
 4. how to look up a table;
-5. how to export an Rgogo table object to Excel.
+5. how to export a table object to Excel.
 
 ## Prerequisite
 
